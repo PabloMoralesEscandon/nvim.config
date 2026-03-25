@@ -7,6 +7,7 @@ return {
 	config = function()
 	    vim.cmd.colorschem "gruvbox"
 	    enable_transparency()
+
 	end
     },
     {
