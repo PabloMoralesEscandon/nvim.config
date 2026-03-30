@@ -1,5 +1,6 @@
 vim.g.mapleader = " "
 vim.keymap.set("n", "<leader>q", vim.cmd.Ex, { desc = "File explorer" })
+vim.keymap.set('n', '<Esc>', '<cmd>nohlsearch<CR>')
 
 vim.api.nvim_create_user_command("Shortcuts", function()
     local lines = {
